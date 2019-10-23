@@ -116,6 +116,7 @@ boot.fn <- function(data,index){
 boot.fn(Default, 1:10000)
 
 # Q6(c)
+library(boot)
 set.seed(1)
 boot(Default,boot.fn,1000)
 
